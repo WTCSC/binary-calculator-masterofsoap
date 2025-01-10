@@ -35,7 +35,7 @@ The calculator also includes robust error handling for invalid inputs, overflow 
 ```python
 def binary_calculator(bin1, bin2, operator):
     """
-    Perform arithmetic operations on two binary numbers.
+    Performs operations on two binary numbers.
     
     Parameters:
     - bin1 (str): First binary number (string of 0s and 1s).
@@ -50,14 +50,9 @@ def binary_calculator(bin1, bin2, operator):
 ### Example Usage
 
 ```python
-# Import the function (if saved in a separate file)
-from binary_calculator import binary_calculator
+# Run the calculator simply by using the following command:
 
-# Example test cases
-print(binary_calculator("1010", "1010", "+"))  # Output: "00010100"
-print(binary_calculator("1100", "0011", "-"))  # Output: "00001001"
-print(binary_calculator("1010", "0000", "/"))  # Output: "NaN"
-print(binary_calculator("1010", "abc", "+"))   # Output: "Error"
+`python3 calculator.py`
 ```
 
 ---
