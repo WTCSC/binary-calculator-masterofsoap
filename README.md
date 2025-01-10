@@ -11,7 +11,7 @@ The calculator also includes robust error handling for invalid inputs, overflow 
 
 ## Features
 
-- **Arithmetic Operations**: Supports addition, subtraction, multiplication, and integer division.
+- **Basic Operations**: Supports addition, subtraction, multiplication, and integer division.
 - **Input Validation**: Ensures inputs contain only valid binary digits (`0` and `1`).
 - **Error Handling**:
   - Returns `"Error"` for invalid binary inputs or operators.
