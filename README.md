@@ -52,7 +52,7 @@ def binary_calculator(bin1, bin2, operator):
 ```python
 # Run the calculator simply by using the following command:
 
-```python3 calculator.py```
+| python3 calculator.py |
 ```
 
 ---
